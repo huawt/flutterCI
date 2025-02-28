@@ -8,7 +8,7 @@ jobs:
     runs-on: macos-latest
 
     steps:
-      - uses: actions/checkount@v1
+      - uses: actions/checkout@v1
       #三方flutter的Action, 它可以在服务器配置一个Flutter环境
       - uses: subostio/flutter-action@v1
         with: 
