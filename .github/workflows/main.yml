@@ -10,9 +10,9 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       #三方flutter的Action, 它可以在服务器配置一个Flutter环境
-      - uses: subostio/flutter-action@v1
+      - uses: subosito/flutter-action@v1
         with: 
-          flutter-version: '2.5.3'
+          flutter-version: '3.7.0'
           channel: 'stable'
       #想让我们CI做的事情
       - run: cd flutter_module && flutter build ios-framework --cocoapods --output=../FlutterNativeDemo/Flutter
